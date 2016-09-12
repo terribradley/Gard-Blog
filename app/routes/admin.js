@@ -25,7 +25,5 @@ export default Ember.Route.extend({
       post.destroyRecord();
       this.transitionTo('admin');
     }
-
-
   }
 });
