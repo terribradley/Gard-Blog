@@ -6,7 +6,6 @@ export default Ember.Component.extend({
   actions: {
     postForm() {
       this.set('updatePost', true);
-
     },
     update(post) {
       var params = {
